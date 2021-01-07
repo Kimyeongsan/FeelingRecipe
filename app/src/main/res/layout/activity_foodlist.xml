@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodListActivity">
+
+    <TextView
+        android:id="@+id/txt_titleStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="음식검색"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextFilter"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:maxLength="11"
+        android:layout_margin="4dp"
+        android:hint="Recipe Name"
+        android:layout_toRightOf="@id/txt_titleStr"
+        android:imeOptions="actionDone"/>
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_pingk"
+        android:layout_marginTop="7dp"
+        android:text="입력"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/editTextFilter"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/foodRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_marginTop="45dp">
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

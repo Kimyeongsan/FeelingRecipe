@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="14dp">
+
+    <LinearLayout
+        android:id="@+id/select_isRice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_black_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="공통질문1 \n 어떤 종류의 음식을 좋아하시나요?"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/kimchizzim"/>
+
+        <Button
+            android:id="@+id/select_Rice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="밥종류의 음식을 선호하시나요?"/>
+
+        <Button
+            android:id="@+id/select_unRice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="면종류의 음식을 선호하시나요?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_isHappy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_black_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="공통질문2 \n 지금 기분이 어떠신가요?"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/galbitang"/>
+
+        <Button
+            android:id="@+id/select_Happy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="기분이 좋으신가요?"/>
+
+        <Button
+            android:id="@+id/select_unHappy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="기분이 나쁘신가요?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_tasty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_black_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="질문3 \n어떤 맛의 음식을 좋아하시나요?"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/godeungugooi"/>
+
+        <Button
+            android:id="@+id/tasty_palatable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pingk"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="고소한(느끼한) 맛을 좋아하시나요?"/>
+
+        <Button
+            android:id="@+id/tasty_fresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pingk"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="상큼한(신맛) 맛을 좋아하시나요?"/>
+
+        <Button
+            android:id="@+id/tasty_mide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pingk"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="단백한 맛을 좋아하시나요?"/>
+
+        <Button
+            android:id="@+id/tasty_spicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pingk"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="단 맛을 좋아하시나요?"/>
+
+        <Button
+            android:id="@+id/tasty_sweet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pingk"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="매운맛 맛을 좋아하시나요?"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/select_how"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_black_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="공통질문4 \n 어떤 방식의 요리를 좋아하시나요?"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/kalnoodle"/>
+
+        <Button
+            android:id="@+id/how_roast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="구운 요리를 좋아하시나요?"/>
+
+        <Button
+            android:id="@+id/how_fry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="튀긴 요리를 좋아하시나요?"/>
+
+        <Button
+            android:id="@+id/how_stir_fry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="볶음 요리를 좋아하시나요?"/>
+
+        <Button
+            android:id="@+id/how_boil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_pingk"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="삶은요리(찜요리)를 좋아하시나요?"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_source"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_black_pingk"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="공통질문5 \n 음식에 뭐가 들어가면 좋을까요?"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/kimchirice"/>
+
+        <Button
+            android:id="@+id/source_pork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pingk"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="돼지가 좋아요"/>
+
+        <Button
+            android:id="@+id/source_chicken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pingk"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="닭이 좋아요"/>
+
+        <Button
+            android:id="@+id/source_kimchi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_pingk"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="김치가 들어가면 좋아요"/>
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FeelingRecipe</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="title_activity_select_feel">selectActivity_feel</string>
+    <string name="title_activity_select2">SelectActivity2</string>
+    <string name="title_activity_select3">SelectActivity3</string>
+    <string name="title_activity_final">FinalActivity</string>
+</resources>
